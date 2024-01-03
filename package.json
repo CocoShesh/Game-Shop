@@ -3,12 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   "homepage": "https://cocoshesh.github.io/GameShop/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy ": "gh-pages -d dist",
+=======
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+>>>>>>> 403366e935d5b8b493e7657d55fd419c945b5e96
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -32,7 +38,10 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+<<<<<<< HEAD
     "gh-pages": "^6.1.1",
+=======
+>>>>>>> 403366e935d5b8b493e7657d55fd419c945b5e96
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"
